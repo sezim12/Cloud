@@ -1,0 +1,139 @@
+@media screen and(max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .mobile-btn {
+    display: flex;
+    cursor: pointer;
+  }
+  .show-mobile-btn span {
+    background: transparent;
+  }
+  .show-mobile-btn span::before,
+  .show-mobile-btn span::after {
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+.show-mobile-btn span::before {
+  transform: rotate(45deg);
+}
+
+.show-mobile-btn span::after {
+  transform: rotate(-45deg);
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+  right: -100%;
+  transition: 0.7s;
+}
+
+.show-header__menu {
+  right: 0;
+  z-index: 5;
+}
+
+.show-header__link {
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  width: 150px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+@media screen and(max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  @media screen and(max-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+    .hero {
+      height: 70vh;
+
+      &__content-title {
+        font-size: 65px;
+      }
+    }
+    .video__description {
+      padding-right: 20px;
+    }
+    .col-4 {
+      width: 50%;
+    }
+    .features__item {
+      margin-bottom: 150px;
+    }
+    .features__col-4 {
+      width: 100%;
+    }
+    .contact__form {
+      width: 450px;
+    }
+    .contact__form-input-text {
+      width: 210px;
+    }
+    .footer__copyright {
+      padding-left: 15px;
+    }
+  }
+
+  @media screen and(max-width: 768px) {
+    .container {
+      max-width: 520px;
+    }
+  }
+  .header__nav {
+    position: relative;
+  }
+  .logo {
+    position: absolute;
+    left: 0;
+    top: 60px;
+  }
+  .mobile-btn {
+    position: absolute;
+    right: 0;
+    top: 50px;
+  }
+  .header__button {
+    position: absolute;
+    right: 0;
+  }
+
+
+  @media screen and(max-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media screen and(max-width: 320px) {
+    .container {
+      max-width: 300px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .container {
+      max-width: 750px;
+    }
+  }
+}
+
+

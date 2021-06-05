@@ -1,0 +1,62 @@
+.contact {
+  padding: 117px 0 78px;
+
+  &__title {
+    @include font(36px, 43px, 500);
+    margin-bottom: 50px;
+  }
+
+  &__description {
+    @include font(14px, 140%, normal)
+  }
+
+  &__form {
+    width: 540px;
+
+    &-block {
+      height: 60px;
+      margin-bottom: 24px;
+    }
+
+    &-input-text {
+      height: 100%;
+      width: 255px;
+      border-radius: 6px;
+      padding: 0 31px;
+      @include font(16px, 19px, normal);
+      color: rgba(19, 39, 67, 0.5);
+    }
+
+    &-first-name {
+      margin-right: 25px;
+    }
+
+    &-input-tel {
+      height: 100%;
+      width: 100%;
+      border-radius: 6px;
+      padding: 0 31px;
+      @include font(16px, 19px, normal);
+      color: rgba(19, 39, 67, 0.5);
+    }
+
+    &__select {
+      @include font(16px, 19px, normal);
+      color: rgba(19, 39, 67, 0.5);
+      height: 100%;
+      width: 100%;
+      border-radius: 6px;
+      padding: 0 31px;
+    }
+
+    &-button {
+      @include font(16px, 19px, normal);
+      padding: 17px 134px;
+      background: $pink;
+      border-radius: 6px;
+      border: none;
+
+    }
+
+  }
+}

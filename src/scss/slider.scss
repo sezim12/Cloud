@@ -1,0 +1,17 @@
+.slider{
+  padding: 94px 0 95px;
+  background-color: $pink;
+  color: #ffffff;
+  &__title{
+    @include font(36px, 43px, 500);
+  }
+  &__description{
+    @include font(14px, 140%, normal);
+    margin: 30px 0 42px;
+  }
+  &__icon{
+    color: #ffffff;
+    font-size: 35px;
+    margin-right: 25px;
+  }
+}

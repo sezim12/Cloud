@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/libs/wow/animate.css">
+    <link rel="stylesheet" href="src/libs/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/libs/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="src/libs/fancybox/jquery.fancybox.min.css"/>
+    <!--    <link rel="stylesheet" href="src/libs/bootstrap-grid/bootstrap-grid.min.css">-->
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/scss/media.scss">
+
+
+
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="header__nav  wow bounceInDown">
+            <div class="logo">
+                <img src="src/images/header/Vector%20(1).svg" alt="">
+                <a href="" class="header__title">CloudBudget</a>
+            </div>
+            <ul class="header__menu">
+                <li class="header__link">OVERVIEW</li>
+                <li class="header__link">FEATURES</li>
+                <li class="header__link">TECHNOLOGY</li>
+                <li class="header__link">CONTACT</li>
+                <li class="header__link">Sign up</li>
+            </ul>
+
+            <div class="mobile-btn">
+                <span class="mobile-btn__span"></span>
+
+            </div>
+
+
+
+            <form class="header__form">
+                <label for= "demoDefaultSelection">
+                    <select name="" id="demoDefaultSelection">
+                        <option value="0" data-imagesrc="src/images/header/en.jpg"
+                        >EN
+                        </option>
+                        <option value="1" data-imagesrc="src/images/header/kgz.jpg"
+                        >KG
+                        </option>
+                        <option value="2" selected="selected" data-imagesrc="src/images/header/rus.jpg"
+                        >RU
+                        </option>
+                        <option value="3" data-imagesrc="src/images/header/fr.png"
+                        >FR
+                        </option>
+                    </select>
+                </label>
+                <button class="header__button">Login</button>
+            </form>
+        </nav>
+    </div>
+</header>
+
+
+<main>
+    <section class="hero">
+        <div class="hero__content  wow bounceInLeft">
+            <h1 class="hero__content-title">CloudBudget</h1>
+            <p class="hero__content-description">
+                Cloud budget management for everyone. Only <br>
+                €69.95 a Month After a 7 Day Trial of <br>
+                Up to €4.99
+            </p>
+            <button class="hero__content-button">Sign Up</button>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container wow rollIn">
+            <div class="row">
+                <div class="col-6  ">
+                    <div class="video__item wow fadeInLeftBig">
+                        <h2 class="video__title">Easy to Use Cloud Budget <br> Management Software</h2>
+                        <p class="video__description">
+                            Our software is made so you can access and
+                            manage your budget and
+                            expenses online at any time from any device. It provides detailed income
+                            and expense reports with graphs so you can easilly see your spending
+                            patterns and budget at a glance. Read below to find out more.
+                        </p>
+                        <a class="video__link">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="video__item">
+                        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=Y8tyOFP_HPs">
+                            <p class="video__play">
+                                <img src="src/images/video/PlaySolid(F5B0).svg" alt="" class="video__triangle">
+                            </p>
+                        </a>
+                        <a data-fancybox="images" href="src/images/video/Video_bg.png">
+                            <img src="src/images/video/Video_bg.png" alt="" class="video__img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="features">
+        <div class="container wow swing">
+            <h2 class="features__title">Features</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="features__item">
+                        <a data-fancybox="image" href="src/images/features/Bg.png">
+                            <img src="src/images/features/Bg.png" alt="">
+                        </a>
+                        <div class="features__content">
+                            <h4 class="features__content-title">Supports All Currencies and Cards</h4>
+                            <p class="features__content-description">We support all popular currencies and is fully
+                                customizable to add</p>
+                            <a href="" class="features__content-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="features__item">
+                        <a data-fancybox="image" href="src/images/features/Bg%20(1).png">
+                            <img src="src/images/features/Bg%20(1).png" alt="">
+                        </a>
+                        <div class="features__content">
+                            <h4 class="features__content-title">Manage your expenses on the go</h4>
+                            <p class="features__content-description">You can access your account from anywhere in the
+                                world on any device</p>
+                            <a href="" class="features__content-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 features__col-4">
+                    <div class="features__item">
+                        <a data-fancybox="image" href="src/images/features/Bg%20(2).png">
+                            <img src="src/images/features/Bg%20(2).png" alt="">
+                        </a>
+                        <div class="features__content">
+                            <h4 class="features__content-title">Cloud Budget Management Software</h4>
+                            <p class="features__content-description">Our software is made so you can access and manage
+                                your budget</p>
+                            <a href="" class="features__content-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="technology">
+        <div class="container  wow slideInLeft">
+            <h2 class="technology__title">Technology</h2>
+            <div class="row">
+                <div class="col-3">
+                    <div class="technology__item">
+                        <div class="technology__block">
+                            <p class="technology__subtitle">01</p>
+                            <img src="src/images/technology/cloud.svg" alt="" class="technology__img">
+                        </div>
+                        <div class="technology__content">
+                            <h4 class="technology__content-title">Cloud Storage</h4>
+                            <p class="technology__content-description">Access your account from anywhere <br> in the
+                                world on any device</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="technology__item">
+                        <div class="technology__block">
+                            <p class="technology__subtitle">02</p>
+                            <img src="src/images/technology/secure.svg" alt="" class="technology__img">
+                        </div>
+                        <div class="technology__content">
+                            <h4 class="technology__content-title">Secure</h4>
+                            <p class="technology__content-description">All your information is stored on <br> secure
+                                cloud servers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="technology__item">
+                        <div class="technology__block">
+                            <p class="technology__subtitle">03</p>
+                            <img src="src/images/technology/pdf.svg" alt="" class="technology__img">
+                        </div>
+                        <div class="technology__content">
+                            <h4 class="technology__content-title">PDF Download</h4>
+                            <p class="technology__content-description">Download any of your reports in <br> PDF format
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="technology__item">
+                        <div class="technology__block">
+                            <p class="technology__subtitle">04</p>
+                            <img src="src/images/technology/csv.svg" alt="" class="technology__img">
+                        </div>
+                        <div class="technology__content">
+                            <h4 class="technology__content-title">CSV Download</h4>
+                            <p class="technology__content-description">All your information is stored on <br> secure
+                                cloud servers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="container wow rotateInDownRight">
+            <div class="row">
+                <div class="col-6">
+                    <div class="slider__item">
+                        <h2 class="slider__title">Stay focused on saving <br> money</h2>
+                        <p class="slider__description">
+                            It is important to stay focused on saving money in any way you can. We <br> help you monitor
+                            your spending habits so you can easily spot and cut
+                            <br> any unnecessary expenses. Simply join today to get started!
+                        </p>
+                        <div class="slider__icons">
+                            <a href="" class="slider__icon">
+                                <i class="fab fa-google-play"></i>
+                            </a>
+                            <a href="" class="slider__icon">
+                                <i class="fab fa-app-store"></i>
+                            </a>
+                            <a href="" class="slider__icon">
+                                <i class="fab fa-windows"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="slider__item">
+                        <div class="owl-carousel carousel">
+
+
+                            <img src="src/images/slider/Video_bg.svg" alt="">
+                            <img src="src/images/slider/Video_bg%20(1).svg" alt="">
+                            <img src="src/images/slider/Video_bg%20(2).svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container wow slideInRight">
+            <div class="row">
+                <div class="col-6 video__content  ">
+                    <div class="contact__item">
+                        <h2 class="contact__title">Contact</h2>
+                        <p class="contact__description">Questions or concerns? Just fill out the form below and our
+                            support
+                            <br>
+                            team will get back to you within 24 hours</p>
+
+
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <div class="contact__item">
+                        <form class="contact__form">
+                            <div class="contact__form-block">
+                                <label class="contact__form-label-text">
+                                    <input type="text" class="contact__form-input-text contact__form-first-name"
+                                           placeholder="First Name">
+                                </label>
+
+                            </div>
+                            <div class="contact__form-block">
+                                <label class="contact__form-label-text">
+                                    <input type="text" class="contact__form-input-text" placeholder="Last Name">
+                                </label>
+
+                            </div>
+                            <div class="contact__form-block">
+                                <label class="contact__form-label-text">
+                                    <input type="tel" class="contact__form-input-tel" placeholder="Phone Number">
+                                </label>
+
+                            </div>
+
+
+                            <div class="contact__form-block">
+                                <label for="services" class="contact__form-label-select">
+                                    <select name="" id="services" class="contact__form-select">
+                                        <option value="Select Service"></option>
+                                        <option value="overview"></option>
+                                        <option value="Features"></option>
+                                        <option value="technology"></option>
+                                        <option value="Terms & Conditions"></option>
+                                        <option value="Privacy"></option>
+
+
+                                    </select>
+                                </label>
+
+                            </div>
+
+                            <button class="contact__form-button">Submit Now</button>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+<footer class="footer">
+    <div class="container wow bounce">
+        <div class="row">
+            <div class="col-3">
+                <div class="footer__item">
+                    <h4 class="footer__title">Address</h4>
+                    <p class="footer__description">Pipang Ltd, Griva Digeni, <br>
+                        81-83 Jacovides Tower, 1st Floor <br>
+                        1090 Picosia USA</p>
+
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="footer__item">
+                    <h4 class="footer__title">Services</h4>
+                    <ul class="footer__menu">
+                        <li class="footer__li"><a href="#" class="footer__link">overview</a></li>
+                        <li class="footer__li"><a href="#" class="footer__link">Features</a></li>
+                        <li class="footer__li"><a href="#" class="footer__link">technology</a></li>
+                        <li class="footer__li"><a href="#" class="footer__link">Terms & Conditions</a></li>
+                        <li class="footer__li"><a href="#" class="footer__link">Privacy</a></li>
+
+
+                    </ul>
+
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="footer__item">
+                    <h4 class="footer__title">Get in Touch</h4>
+                    <p class="footer__email"><a href="mailto:info@cloudbudget.com">info@cloudbudget.com</a></p>
+                    <p class="footer__tel"><a href="telto:+1 844-721-7120">+1 844-721-7120</a></p>
+                    <ul class="footer__icons">
+                        <li class="footer__icon"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="footer__icon"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="footer__icon"><a href=""><i class="fab fa-twitter"></i></a></li>
+
+                    </ul>
+
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="footer__item">
+                    <h4 class="footer__title">We Support</h4>
+                    <img src="src/images/footer/secure-p-1%201.png" alt="">
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <p class="footer__copyright">Copyright 2018 CloudBudget</p>
+    </div>
+</footer>
+
+
+<script src="src/libs/jquery/jquery.js"></script>
+<script src="src/libs/fancybox/jquery.fancybox.min.js"></script>
+<script src="src/libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="src/libs/ddStick/ddStick.js"></script>
+<script src="src/libs/wow/wow.min.js"></script>
+
+<script src="src/js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+.footer {
+  padding: 85px 0 86px;
+  background-color: #FAFAFA;
+
+  &__title {
+    @include font(18px, 22px, bold);
+    color: #101010;
+    margin-bottom: 33px;
+  }
+
+  &__description {
+    @include font(12px, 150%, normal);
+  }
+
+  &__link {
+    @include font(12px, 160%, normal);
+    text-transform: capitalize;
+  }
+
+  &__icons {
+    display: flex;
+    column-gap: 17px;
+    color: #101010;
+  }
+
+  &__icon {
+    transition: .6s;
+
+    &:hover {
+      font-size: 20px;
+      color: $pink;
+    }
+  }
+
+  &__email, &__tel {
+    @include font(12px, 14px, normal);
+  }
+
+  &__tel {
+    margin: 11px 0 22px;
+  }
+
+  &__copyright {
+  }
+}
+
+a {
+  color: #000000;
+}
+
+ul li {
+  list-style-type: none;
+}
